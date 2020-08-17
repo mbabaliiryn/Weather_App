@@ -1,153 +1,176 @@
 #mainContainer {
-    width: 50em;
-    margin: auto;
-    margin-top: 5em;
-    background-color: rgba(19, 179, 80, 0.7);
-    border-radius: 1em;
-    color: rgb(46, 46, 46);
-    font-family: "Work Sans", sans-serif;
-    font-weight: 900;
-  }
-  
-  #topHalf {
-    height: 10em;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.493);
-    padding: 2em;
-  }
-  
-  #graphicDiv {
-    float: left;
-    text-align: center;
-    width: 10em;
-  }
-  
-  #weatherGraphic {
-    margin-top: -1em;
-    height: 125px;
-    width: 125px;
-  }
-  
-  #weatherStatus {
-    margin-top: -0.5em;
-    height: 2.5em;
-    text-align: center;
-    font-size: 2em;
-    font-weight: 400;
-  }
-  
-  #dateContainer {
-    display: block;
-    float: right;
-    text-align: center;
-  }
-  
-  #dayDiv {
-    font-size: 2em;
-  }
-  
-  #dateDiv,
-  #location {
-    font-size: 1.5em;
-    font-weight: 400;
-  }
-  
-  #currentTemp {
-    font-size: 3.75em;
-  }
-  
-  #bottomHalf {
-    padding: 2em;
-    text-align: center;
-  }
-  
-  table {
-    width: 22em;
-    margin: auto;
-    margin-bottom: 2em;
-  }
-  
-  #humidity,
-  #wind,
-  #tempHigh,
-  #tempLow {
-    font-size: 1.75em;
-    text-align: left;
-  }
-  
-  #humidityText,
-  #windText,
-  #tempHighText,
-  #tempLowText {
-    font-size: 1.75em;
-    font-weight: 400;
-    text-align: right;
-  }
-  
-  .myButton {
-    box-shadow: inset 0px 1px 0px 0px #cc8686;
-    background: linear-gradient(to bottom, #fc4b69 5%, #a34b59 100%);
-    background-color: #fc4b69;
-    border: 1px solid #6e2244;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 1em;
-    padding: 0.25em 0.8em;
-    margin-bottom: 0.75em;
-  }
-  .myButton:hover {
-    background: linear-gradient(to bottom, #a34b59 5%, #fc4b69 100%);
-    background-color: #a34b59;
-  }
-  .myButton:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  #searchBox {
-    padding: 5px;
-    font-size: 16px;
-    border-width: 1px;
-    border-color: #cccccc;
-    background-color: #ffffff;
-    color: #000000;
-    border-style: double;
-    border-radius: 0px;
-    box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.5);
-    text-shadow: 0px 0px 5px rgba(66, 66, 66, 0.5);
-    margin-bottom: 0.75em;
-  }
-  #searchBox:focus {
-    outline: none;
-  }
-  
-  #searchButton {
-    box-shadow: inset 0px 1px 0px 0px #c7c7c7;
-    background: linear-gradient(to bottom, #a5a5a5 5%, #5f5f5f 100%);
-    background-color: #a1a1a1;
-    border-radius: 5px solid #5e5e5e;
-    display: block;
-    margin: auto;
-    width: 10em;
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 13px;
-    padding: 1em 2em;
-    text-decoration: none;
-  }
-  #searchButton:hover {
-    background: linear-gradient(to bottom, #707070 5%, #a1a1a1 100%);
-    background-color: #999999;
-  }
-  #searchButton:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  width: 50em;
+  margin: auto;
+  margin-top: 5em;
+  background-color: rgba(45, 238, 6, 0.7);
+  border-radius: 1em;
+  color: rgb(46, 46, 46);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+}
+
+#topHalf {
+  height: 10em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.493);
+  padding: 2em;
+}
+
+#graphicDiv {
+  float: left;
+  text-align: center;
+  width: 10em;
+}
+
+#weatherGraphic {
+  margin-top: -1em;
+  height: 125px;
+  width: 125px;
+}
+
+#weatherStatus {
+  margin-top: -0.5em;
+  height: 2.5em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+#dateContainer {
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+#dayDiv {
+  font-size: 2em;
+}
+
+#dateDiv,
+#location {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+#currentTemp {
+  font-size: 3.75em;
+}
+
+#bottomHalf {
+  padding: 2em;
+  text-align: center;
+}
+
+table {
+  width: 22em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#humidity,
+#wind,
+#tempHigh,
+#tempLow {
+  font-size: 1.75em;
+  text-align: left;
+}
+
+#humidityText,
+#windText,
+#tempHighText,
+#tempLowText {
+  font-size: 1.75em;
+  font-weight: 400;
+  text-align: right;
+}
+
+.myButton {
+  background:
+    linear-gradient(
+      to bottom,
+      #fc4b69 5%,
+      #a34b59 100%
+    );
+  background-color: #fc4b69;
+  border: 1px solid #6e2244;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.25em 0.8em;
+  margin-bottom: 0.75em;
+}
+
+.myButton:hover {
+  background:
+    linear-gradient(
+      to bottom,
+      #a34b59 5%,
+      #fc4b69 100%
+    );
+  background-color: #a34b59;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#searchBox {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #ccc;
+  background-color: #fff;
+  color: #000;
+  border-style: double;
+  border-radius: 0;
+  box-shadow: 0.2px 0.2px 5px rgba(66, 66, 66, 0.5);
+  text-shadow: 0.2px 0.2px 5px rgba(66, 66, 66, 0.5);
+  margin-bottom: 0.75em;
+}
+
+#searchBox:focus {
+  outline: none;
+}
+
+#searchButton {
+  background:
+    linear-gradient(
+      to bottom,
+      #a5a5a5 5%,
+      #5f5f5f 100%
+    );
+  background-color: #a1a1a1;
+  border-radius: 0;
+  display: block;
+  margin: auto;
+  width: 10em;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+#searchButton:hover {
+  background:
+    linear-gradient(
+      to bottom,
+      #707070 5%,
+      #a1a1a1 100%
+    );
+  background-color: #999;
+}
+
+#searchButton:active {
+  position: relative;
+  top: 1px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
