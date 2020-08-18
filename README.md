@@ -4,7 +4,8 @@
 
 > This a Weather app that displays the  to create and delete projects, create, edit and delete todos.
 
-![Screenshot from 2020-08-17 17-02-34](https://user-images.githubusercontent.com/44978186/90404760-809ca380-e0ab-11ea-8d79-46f43b58b7f0.png)
+![Screenshot from 2020-08-18 12-26-04](https://user-images.githubusercontent.com/44978186/90496461-84cdcd00-e14e-11ea-9146-0a789b5801f1.png)
+
 
 The project  allow users to create and delete projects, create, edit and delete todos
 
@@ -24,7 +25,7 @@ The project  allow users to create and delete projects, create, edit and delete 
 - Clone the repository to your local machine
 - Run `npm install` to install all the required depencies
 - Run `npm start` to view the project from the browser
-- Click an Miscellenous Tasks to add a todo
+- type the correct city name your would like to get the weather results
 
 
 ## Authors
@@ -34,10 +35,6 @@ The project  allow users to create and delete projects, create, edit and delete 
 - Github: [mbabaliiryn](https://github.com/mbabaliiryn)
 - Linkedin: [mbabaliiryn](https://www.linkedin.com/in/mbabali-iryn/)
 
-👤 **Keshav Chakravarthy**
-
-- Github: [@githubhandle](https://github.com/keshav-c)
-- Linkedin: [k3shavchakravarthy ](https://www.linkedin.com/in/k3shavchakravarthy/)
 
 ## 🤝 Contributing
 
@@ -52,7 +49,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Odin project
-- Accodion
 - npm
 - Microverse
 
