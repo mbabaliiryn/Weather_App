@@ -51,8 +51,6 @@ Give a ⭐️ if you like this project!
 - Odin project
 - npm
 - Microverse
-
-
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
