@@ -1,7 +1,7 @@
 /* eslint-disable no-alert */
 /* eslint-disable no-use-before-define */
 import handleDate from './handleDate';
-import passINFO from './passINFO';
+import { passINFO, imgController } from './passINFO';
 import { handleDegreeClick } from './degreeChange';
 
 const apiFunctions = (() => {
@@ -69,5 +69,6 @@ const apiFunctions = (() => {
     newCall,
   };
 })();
+imgController();
 
 export default apiFunctions;

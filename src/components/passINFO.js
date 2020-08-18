@@ -47,4 +47,4 @@ const imgController = status => {
   }
 };
 
-export default passINFO;
+export { passINFO, imgController };

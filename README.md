@@ -1,65 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TodoList App (JavaScript)
 
-> One paragraph statement about the project.
+> This a Weather app that displays the  to create and delete projects, create, edit and delete todos.
 
-![screenshot](./app_screenshot.png)
+![Screenshot from 2020-08-17 17-02-34](https://user-images.githubusercontent.com/44978186/90404760-809ca380-e0ab-11ea-8d79-46f43b58b7f0.png)
 
-Additional description about the project and its features.
+The project  allow users to create and delete projects, create, edit and delete todos
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+## Major languages,
+- JAVASCRIPT
+- CSS
+- HTML
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://optimistic-volhard-bc7791.netlify.app/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone the repository to your local machine
+- Run `npm install` to install all the required depencies
+- Run `npm start` to view the project from the browser
+- Click an Miscellenous Tasks to add a todo
 
 
 ## Authors
 
-👤 **Author1**
+👤 **mbabaliiryn**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [mbabaliiryn](https://github.com/mbabaliiryn)
+- Linkedin: [mbabaliiryn](https://www.linkedin.com/in/mbabali-iryn/)
 
-👤 **Author2**
+👤 **Keshav Chakravarthy**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/keshav-c)
+- Linkedin: [k3shavchakravarthy ](https://www.linkedin.com/in/k3shavchakravarthy/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/mbabaliiryn/TodoList/issues).
 
 ## Show your support
 
@@ -67,9 +51,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Odin project
+- Accodion
+- npm
+- Microverse
+
 
 ## 📝 License
 
