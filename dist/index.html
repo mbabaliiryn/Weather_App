@@ -1,81 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Weather API App" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <title>Weather API App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
   </head>
   <body>
-    <div id="mainContainer">
-      <div id="topHalf">
-        <div id="graphicDiv">
-          <img
-            id="weatherGraphic"
-            src="images/overcast.jpeg"
-            alt="Weather Graphic"
-          ></img>
-          <div id="weatherStatus"></div>
-        </div>
-        <div id="dateContainer">
-          <div id="dayDiv"></div>
-          <div id="dateDiv"></div>
-          <div id="location"></div>
-          <div id="currentTemp"></div>
-        </div>
-      </div>
-      <div id="bottomHalf">
-        <table id="infoTable">
-          <tbody>
-            <tr>
-              <td id="humidity">Humidity</td>
-              <td id="humidityText"></td>
-            </tr>
-            <tr>
-              <td id="wind">Wind</td>
-              <td id="windText"></td>
-            </tr>
-          </tbody>
-        </table>
-        <table id="temps">
-          <tbody>
-            <tr>
-              <td id="tempHigh">High</td>
-              <td id="tempHighText"></td>
-            </tr>
-            <tr>
-              <td id="tempLow">Low</td>
-              <td id="tempLowText"></td>
-            </tr>
-          </tbody>
-        </table>
-        <div id="degreeContainer">
-          <div
-            class="myButton"
-            id="fahrenheit"
-          
-          >
-            F°
-          </div>
-          <div class="myButton" id="celsius" >
-            C°
-          </div>
-        </div>
-        <div id="searchDiv">
-          <input
-            type="text"
-            id="searchBox"
-            placeholder="London"
-          ></input>
-          <div id="searchButton"> Search
-          </div>
-        </div>
-      </div>
+    <div id="content"></div>
     <script src="main.js"></script>
   </body>
 </html>

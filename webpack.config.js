@@ -4,9 +4,6 @@ module.exports = {
   mode: 'development',
   entry: path.join(__dirname, 'src', 'index.js'),
   watch: true,
-  devServer: {
-    contentBase: './dist',
-  },
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: '/dist/',
