@@ -2,12 +2,11 @@
 
 # TodoList App (JavaScript)
 
-> This a Weather app that displays the  to create and delete projects, create, edit and delete todos.
+> This a Weather app allow users to search for a city weather details
 
-![Screenshot from 2020-08-18 12-26-04](https://user-images.githubusercontent.com/44978186/90496461-84cdcd00-e14e-11ea-9146-0a789b5801f1.png)
+![Screenshot from 2020-08-19 12-36-21](https://user-images.githubusercontent.com/44978186/90618454-b3b07580-e218-11ea-9f90-76f6da4fc229.png)
 
 
-The project  allow users to create and delete projects, create, edit and delete todos
 
 ## Built With
 

@@ -6,7 +6,7 @@ module.exports = {
   watch: true,
   output: {
     path: path.join(__dirname, 'dist'),
-    publicPath: '/dist/',
+    publicPath: './dist',
     filename: 'main.js',
     chunkFilename: '[name].js',
   },
