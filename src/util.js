@@ -4,6 +4,7 @@ const left = tags('div');
 const right = tags('div');
 const tcity = tags('div');
 const tempData = tags('div');
+const slider = tags('span');
 const cityDateDiv = tags('div');
 const dateTag = tags('small');
 const weatherDiv = tags('div');
@@ -23,11 +24,11 @@ const form = tags('form');
 const cityInput = tags('input');
 const unit = tags('input');
 const label = tags('label');
-const slider = tags('span');
 const submit = tags('button');
 const inputGroup = tags('div');
 
 tempData.className = 'tempdata';
+slider.className = 'slider round';
 left.className = 'left';
 right.className = 'right';
 cityDateDiv.className = 'citydate';
@@ -35,7 +36,6 @@ weatherDiv.className = 'citydate';
 right.id = 'right';
 label.className = 'switch';
 unit.type = 'checkbox';
-slider.className = 'slider round';
 inputGroup.className = 'input-group';
 
 [unit, slider].forEach((item) => label.appendChild(item));
@@ -62,6 +62,7 @@ export {
   right,
   tcity,
   tempData,
+  slider,
   cityDateDiv,
   dateTag,
   weatherDiv,

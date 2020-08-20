@@ -1,7 +1,9 @@
 import Weather from './weather';
 import './styles/main.scss';
 import { left, right, content } from './view';
-import { form, cityInput, unit } from './util';
+import {
+  form, cityInput, unit, slider,
+} from './util';
 
 const checkWeather = (item = 'Kisumu', units = 'metric') => new Weather(item, units);
 
@@ -15,9 +17,15 @@ getTown();
 
 [left, right].forEach((item) => content.appendChild(item));
 
+let city = '';
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const tempUnit = unit.checked ? 'imperial' : 'metric';
-  checkWeather(cityInput.value, tempUnit).getWeather();
+  city = cityInput.value;
+  checkWeather(city, tempUnit).getWeather();
   form.reset();
+});
+slider.addEventListener('click', () => {
+  const tempUnit = unit.checked ? 'imperial' : 'metric';
+  checkWeather(city, tempUnit).getWeather();
 });
