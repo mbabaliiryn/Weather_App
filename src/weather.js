@@ -7,13 +7,12 @@ class Weather {
   }
 
   getWeather() {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.location}&units=${this.unit}&appid=b8bb1a362f05a8f7c8e8175617da6b69`);
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${this.location}&units=${this.unit}&appid=b8bb1a362f05a8f7c8e8175617da6b69`,
     )
       .then((res) => res.json())
       .then((res) => init(res, this.unit))
-      .catch((err) => err.message);
+      .catch((err) => console.log(err.message)); // .catch((err) => err.message);
   }
 }
 
