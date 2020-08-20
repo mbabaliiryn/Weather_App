@@ -15,11 +15,6 @@
 - CSS
 - HTML
 
-## Live Demo
-
-[Live Demo Link](https://optimistic-volhard-bc7791.netlify.app/)
-
-
 ## Getting Started
 - Clone the repository to your local machine
 - Run `npm install` to install all the required depencies
