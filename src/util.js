@@ -43,7 +43,7 @@ inputGroup.className = 'input-group';
 [cityInput, label].forEach((item) => inputGroup.appendChild(item));
 [inputGroup, submit].forEach((item) => form.appendChild(item));
 
-form.id = 'city-form';
+form.className = 'city-form';
 cityInput.id = 'city';
 cityInput.type = 'text';
 cityInput.placeholder = 'Enter city';
