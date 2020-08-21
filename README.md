@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TodoList App (JavaScript)
+# Weather App (JavaScript)
 
 > This a Weather app allow users to search for a city weather details
 
